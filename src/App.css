@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-color{
+  background-color: #89c5f0;
+}
+
+.ham-btn{
+  border:none;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 60px;
+  color: #060707;
+  text-transform: capitalize;
+  font-weight: bolder;
+  background-color: #fff;
+  text-align: left;
+}
+.ham-btn:hover{
+  background-color:#f5f0f0 ;
+}
