@@ -44,9 +44,9 @@ function App() {
   return (
     <>
   <Router>
-      <Navbar titleText="TextUtils" mode={mode} toggleMode={toggleMode} aboutText='About us' />
-      <Alert alert={alert} />
       <Routes>
+      <Route exact path="/TextUtils" element={<Navbar titleText="TextUtils" mode={mode} toggleMode={toggleMode} aboutText='About us' />} />
+      <Alert alert={alert} />
         <Route exact path="/about" element={<About mode={mode} />} />
         <Route exact path="/" element={<TextForm showAlert={showAlert} mode={mode} />} />
       </Routes>
